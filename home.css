@@ -1,0 +1,51 @@
+/* Reset default margin and padding */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the sidebar */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    background-color:black;
+    padding-top: 20px;
+    color:white;
+}
+
+/* Styling for the sidebar heading */
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for sidebar links */
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Highlight the current page link */
+.sidebar a:hover {
+    background-color: #555;
+}
+
+/* Styling for the main content area */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
